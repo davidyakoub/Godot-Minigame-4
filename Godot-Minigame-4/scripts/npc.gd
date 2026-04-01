@@ -1,3 +1,4 @@
+class_name Ball
 extends RigidBody3D
 
 # step 12: make these all tune-able in the Inspector
@@ -18,14 +19,14 @@ var xDir: float = 1.0
 
 
 # step 4: uncomment the function below
-"""
+
 func _ready() -> void:
 	contact_monitor = true
 	max_contacts_reported = 3
 	
 	ball = get_node("Ball")
 	ball._pickup()
-"""
+
 
 
 func _physics_process(delta: float) -> void:
