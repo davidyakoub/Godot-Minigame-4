@@ -1,4 +1,3 @@
-class_name Ball
 extends RigidBody3D
 
 # step 12: make these all tune-able in the Inspector

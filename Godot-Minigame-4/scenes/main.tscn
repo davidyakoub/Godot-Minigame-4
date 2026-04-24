@@ -13,6 +13,7 @@ font_size = 30
 [node name="Player" parent="." instance=ExtResource("1_o5qli")]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2401273, 6.084159)
+jump = 4.5
 
 [node name="Camera3D" type="Camera3D" parent="Player"]
 transform = Transform3D(1, 0, 0, 0, 0.83821404, 0.5453415, 0, -0.5453415, 0.83821404, 2.5563685e-07, 2.7700665, 2.0122786)
